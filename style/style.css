@@ -62,7 +62,7 @@
         }
 
         .snowflake {
-            position: relative;
+            position: absolute;
             top: -10%;
             z-index: 1;
             -webkit-user-select: none;
@@ -239,13 +239,13 @@
 
         .center-message h1 {
             font-family: 'Comic Neue';
-            font-size: 70px;
+            font-size: 80px;
             font-weight: 900;
         }
 
         .center-message p {
             font-family: 'Comic Neue';
-            font-size: 30px;
+            font-size: 35px;
             font-weight: 500;
         }
 
@@ -280,7 +280,7 @@
 
         .fullCard {
             width: 350px;
-            min-height: 35vh;
+            min-height: 350px;
             border: 1px solid #ccc;
             border-radius: 5px;
             margin: 10px 5px;
@@ -327,8 +327,8 @@
             color: #fff;
             text-align: center;
             flex-direction: column;
-            /* align-items: center; */
-            /* justify-content: center; */
+            align-items: center;
+            justify-content: center;
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -372,16 +372,15 @@
             max-width: 100%;
             height: auto;
         }
-
         #recent-works {
-            padding: 120px 20px 10px 20px;
-            min-height: 50vh;
+            padding: 120px 10px 10px 10px;
+            min-height: 70vh;
             display: flex;
             color: #000;
             text-align: center;
             flex-direction: column;
-            /* align-items: center; */
-            /* justify-content: center; */
+            align-items: center; 
+             justify-content: center;
             background-position: center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -411,20 +410,20 @@
             font-family: monospace;
             text-decoration: underline;
         }
-    #demo{
+    /* #demo{
         margin: 0px 100px;
-    }
+    } */
         @media (max-width: 900px) {
 
             .center-message h1 {
                 font-family: 'Comic Neue';
-                font-size: 60px;
+                font-size: 65px;
                 font-weight: 900;
             }
 
             .center-message p {
                 font-family: 'Comic Neue';
-                font-size: 25px;
+                font-size: 27px;
                 font-weight: 500;
             }
 
